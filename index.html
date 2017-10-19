@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- External Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Fun Trivia!!</title>
+
+</head>
+
+<body>
+
+	<h1> Is It True or False?</h1>
+
+	<h2 id="displayCountDown"></h2>
+
+	<p class="center"><button type="button" id="startButton">Start</button></p>
+
+	<section id="questions">
+	
+		<form>
+
+			<p>1. An ostrich's eye is bigger than its brain.</p>
+			<input type="radio" name="question1" value="true">True
+			<input type="radio" name="question1" value="false">False
+
+			<p>2. The phrase 'O.M.G.' was used in 1917 in a letter to Winston Churchill.</p>
+			<input type="radio" name="question2" value="true">True
+			<input type="radio" name="question2" value="false">False
+
+			<p>3. Toyota has announced that the official plural of 'Prius' is 'Priuses'.</p>
+			<input type="radio" name="question3" value="true">True
+			<input type="radio" name="question3" value="false">False
+
+			<p>4. The first webcam watched a coffee pot.</p>
+			<input type="radio" name="question4" value="true">True
+			<input type="radio" name="question4" value="false">False
+
+			<p>5. The sum of all the numbers on a roulette wheel is 777.</p>
+			<input type="radio" name="question5" value="true">True
+			<input type="radio" name="question5" value="false">False
+
+			<p>6. Before Google launched Gmail, 'G-Mail' was the name of a free email service offered by Garfield's website.</p>
+			<input type="radio" name="question6" value="true">True
+			<input type="radio" name="question6" value="false">False
+
+			<p>7. Bubble gum contains rubber.</p>
+			<input type="radio" name="question7" value="true">True
+			<input type="radio" name="question7" value="false">False
+
+			<p>8. Camels have three sets of eyelids.</p>
+			<input type="radio" name="question8" value="true">True
+			<input type="radio" name="question8" value="false">False
+
+			<p>9. In 1980, Detroit presented Saddam Hussein with a key to the city.</p>
+			<input type="radio" name="question9" value="true">True
+			<input type="radio" name="question9" value="false">False
+
+			<p>10. Topeka, KS once renamed itself ToPikachu.</p>
+			<input type="radio" name="question10" value="true">True
+			<input type="radio" name="question10" value="false">False
+
+		</form>
+
+	</section>
+
+	<section id="showUserResults">
+
+		<h2 id="displayRightAnswers"></h2>
+		<h2 id="displayWrongAnswers"></h2>
+		<h2 id="displayUnanswered"></h2>
+
+	</section>
+
+	<button type="button" id="doneButton">Done</button>
+
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- JavaScript Library-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Trivia Game Javascript/Jquery -->
+	<script src="assets/javascript/app.js"></script>
+	
+</body>
+
+</html>

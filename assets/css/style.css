@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/triviabackground.jpg");
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 52px;
+	background-color: IndianRed;
+	height: 100px;
+	width: 900px;
+	border-radius: 12px;
+}
+
+.center {
+	text-align: center;
+}
+
+#displayCountDown {
+	text-align: center;
+	font-size: 48px;
+	color: #FFE5B4;
+}
+
+#questions {
+	color: #FFE5B4;
+	font-weight: 900;
+	font-size: 24px;
+	margin: 75px;
+	padding: 10px;
+	display: none;
+	background-color: #4863A0;
+	border-radius: 12px;
+}
+
+#showUserResults {
+	text-align: center;
+	margin: 0 auto;
+	color: #FFE5B4;
+	font-weight: 900;
+	font-size: 24px;
+	background-color: #4863A0;
+	height: 200px;
+	width: 600px;
+	vertical-align: middle;
+	line-height: 45px;
+	display: none;
+	border-radius: 12px;
+}
+
+#startButton:hover,
+#doneButton:hover {
+	cursor: pointer;
+}
+
+#startButton {
+	text-align: center;
+	color: pink;
+	background-color: green;
+	height: 125px;
+	width: 250px;
+	font-size: 48px;
+	border-radius: 12px;
+}
+
+#doneButton {
+	color: brown;
+	background-color: red;
+	height: 125px;
+	width: 250px;
+	font-size: 48px;
+	border-radius: 12px;
+	display: none;
+	margin: 75px;
+}
